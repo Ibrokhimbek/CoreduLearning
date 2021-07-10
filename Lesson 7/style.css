@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.eshmat {
+    color: red;
+    text-align: left !important;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center !important;
+    background-color: yellow;
+    margin: 50px;
+    margin: 20px 10px;
+    margin: 10px 20px 30px 40px;
+}
+
+.uy {
+    font-style: italic;
+    color: black;
+    background-color: burlywood;
+    border: 5px solid rgb(0, 72, 255);
+    padding: 10px;
+    margin: 20px;
+}
+
+h1.eshmat {
+    padding: 50px;   /* padding: hamma tomonga; */
+    padding: 0 50px; /* padding: tepa-past o'ng-chap; */
+    padding: 10px 20px 30px 40px; /*padding: tomonlarga soat strelkasi bo'yicha */
+    text-align: right !important;
+    color: green; /* Bu textni yashil rangga o'zgartiradi */
+    background-color: black;
+}
+
+#hero_section {
+    width: 100%;
+    height: 100vh;
+    background: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
