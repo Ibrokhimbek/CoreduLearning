@@ -96,4 +96,20 @@ footer {
     border-radius: 50%;
   }
 }
+
+@keyframes anime {
+  0% {
+    -webkit-transform: translateX(-130px) rotate(0);
+            transform: translateX(-130px) rotate(0);
+    background-color: black;
+  }
+  100% {
+    -webkit-transform: translateX(100vh) rotate(360deg);
+            transform: translateX(100vh) rotate(360deg);
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 50%;
+  }
+}
 /*# sourceMappingURL=main.css.map */

@@ -14,9 +14,9 @@
   height: 130px;
   background-color: blue;
   animation: anime 2s linear infinite alternate;
-//   animation-name: anime;
-//   animation-duration: 2s;
-//   animation-direction: normal;
+  //   animation-name: anime;
+  //   animation-duration: 2s;
+  //   animation-direction: normal;
 }
 
 @keyframes anime {
@@ -32,3 +32,18 @@
     border-radius: 50%;
   }
 }
+
+@keyframes anime {
+    0% {
+      transform: translateX(-130px) rotate(0);
+      background-color: black;
+    }
+    100% {
+      transform: translateX(100vh) rotate(360deg);
+      top: 0;
+      left: 0;
+      background-color: red;
+      border-radius: 50%;
+    }
+  }
+  
