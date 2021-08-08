@@ -1,0 +1,99 @@
+#navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #666;
+}
+
+#navbar a {
+  width: 10%;
+  height: auto;
+}
+
+#navbar a img {
+  width: 100%;
+  height: auto;
+}
+
+#navbar ul.nav_menu {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+#navbar ul.nav_menu .nav_menu-item .nav_menu-link {
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  border: 1px solid white;
+}
+
+footer {
+  background-color: #666;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.animation_box {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid red;
+  position: relative;
+  overflow: hidden;
+}
+
+.box {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 130px;
+  height: 130px;
+  background-color: blue;
+  -webkit-animation: anime 2s linear infinite alternate;
+          animation: anime 2s linear infinite alternate;
+}
+
+@-webkit-keyframes anime {
+  from {
+    -webkit-transform: translateX(-130px) rotate(0);
+            transform: translateX(-130px) rotate(0);
+    background-color: black;
+  }
+  to {
+    -webkit-transform: translateX(100vh) rotate(360deg);
+            transform: translateX(100vh) rotate(360deg);
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 50%;
+  }
+}
+
+@keyframes anime {
+  from {
+    -webkit-transform: translateX(-130px) rotate(0);
+            transform: translateX(-130px) rotate(0);
+    background-color: black;
+  }
+  to {
+    -webkit-transform: translateX(100vh) rotate(360deg);
+            transform: translateX(100vh) rotate(360deg);
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 50%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

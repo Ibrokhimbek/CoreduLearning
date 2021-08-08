@@ -1,0 +1,34 @@
+.animation_box {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid red;
+  position: relative;
+  overflow: hidden;
+}
+
+.box {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 130px;
+  height: 130px;
+  background-color: blue;
+  animation: anime 2s linear infinite alternate;
+//   animation-name: anime;
+//   animation-duration: 2s;
+//   animation-direction: normal;
+}
+
+@keyframes anime {
+  from {
+    transform: translateX(-130px) rotate(0);
+    background-color: black;
+  }
+  to {
+    transform: translateX(100vh) rotate(360deg);
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 50%;
+  }
+}
