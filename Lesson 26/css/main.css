@@ -1,0 +1,26 @@
+.text {
+  color: red;
+  font-size: 30px;
+  animation: anime 3s ease-in forwards;
+}
+
+p {
+    animation: anime2 3s ease-in forwards;
+}
+
+@keyframes anime {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes anime2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
